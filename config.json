@@ -1,33 +1,44 @@
 {
-    "server": {
-        "port": 8003
+  "server": {
+    "port": 8003
+  },
+  "app": {
+    "apiPrefix": "",
+    "url": "https://dmtns4-8003.preview.csb.app"
+  },
+  "validations": {
+    "leastNodeVersion": 10
+  },
+  "credentials": {
+    "apikey": "zp0Iu6SZZb/R4Xh0bwtc+k/5NSYXNc4pru1lztx+/Pk=",
+    "appId": "cs-61867d30-0ea4-56f2-92c6-d48465210e7c",
+    "st-82322b8f-cdd5-52a5-bd21-b08456091a8e": {
+      "apikey": "zp0Iu6SZZb/R4Xh0bwtc+k/5NSYXNc4pru1lztx+/Pk=",
+      "appId": "cs-61867d30-0ea4-56f2-92c6-d48465210e7c"
+    }
+  },
+  "redis": {
+    "options": {
+      "host": "localhost",
+      "port": 6379
     },
-    "app": {
-        "apiPrefix" : "",
-        "url": "http://localhost"
-    },
-    "validations": {
-        "leastNodeVersion": 10
-    },
-    "credentials": {
-        "apikey": "test_api_key",
-        "appId": "test_app_id",
-        "st-67890":{
-            "apikey": "test_api_key2",
-            "appId": "test_app_id2"
-        }
-    },
-    "redis": {
-        "options": {
-            "host": "localhost",
-            "port": 6379
-        },
-        "available": false
-    },
-    "examples" : {
-        "mockServicesHost"  : "http://localhost:8004"
-    },
-    "liveagentlicense": "8947569",
-    "supportsMessageAck": true,
-    "languages":["en","de"]
+    "available": false
+  },
+  "examples": {
+    "mockServicesHost": "http://localhost:8004"
+  },
+  "supportsMessageAck": true,
+  "languages": ["en", "de"],
+  "livechat": {
+    "grant_type": "cookie",
+    "client_id": "c91ae76d8e5a736dae4d488e976057be",
+    "client_secret": "419d0d6286f1306fb3975f02a4398aa38d60a595",
+    "license_id": 14856399,
+    "redirect_url": "https://dmtns4-8003.preview.csb.app/agent",
+    "pat": {
+      "acc_id": "405f11f4-01f6-495a-a048-5b02fc960187",
+      "token": "dal:MpZeFdbt9JyXbKZfhS9cDl_F9dU",
+      "entity_id": "supriyahebbar15@gmail.com"
+    }
+  }
 }
