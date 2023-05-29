@@ -1,5 +1,5 @@
-var botId = "st-82322b8f-cdd5-52a5-bd21-b08456091a8e";
-var botName = "Agri_Service";
+var botId = "st-220bbdf1-c35b-58e9-8bf6-b8c1a1dfdd34";
+var botName = "SDKLiveChatTest";
 var sdk = require("../lib/sdk");
 var _ = require("lodash");
 var bot_config = require("../config.json");
@@ -136,7 +136,7 @@ function onBotMessage(requestId, data, cb) {
     if (faqEvent === "endFAQ" && isFaq) {
       setTimeout(function () {
         console.log("timer completed");
-        return sdk.sendUserMessage(data,cb);
+        return sdk.sendUserMessage(data, cb);
       }, 5000);
       isFaq = false;
     } else {

@@ -4,17 +4,17 @@
   },
   "app": {
     "apiPrefix": "",
-    "url": "https://dmtns4-8003.preview.csb.app"
+    "url": "https://fkwprl-8003.csb.app"
   },
   "validations": {
     "leastNodeVersion": 10
   },
   "credentials": {
-    "apikey": "zp0Iu6SZZb/R4Xh0bwtc+k/5NSYXNc4pru1lztx+/Pk=",
-    "appId": "cs-61867d30-0ea4-56f2-92c6-d48465210e7c",
-    "st-82322b8f-cdd5-52a5-bd21-b08456091a8e": {
-      "apikey": "zp0Iu6SZZb/R4Xh0bwtc+k/5NSYXNc4pru1lztx+/Pk=",
-      "appId": "cs-61867d30-0ea4-56f2-92c6-d48465210e7c"
+    "apikey": "NKkHMN/Xm9/nVgjNmX/I86zUWzod8QKq4ArT2yxhuSI=",
+    "appId": "cs-2f7ae1cb-2ada-5ab5-8c5c-6851bb736399",
+    "st-220bbdf1-c35b-58e9-8bf6-b8c1a1dfdd34": {
+      "apikey": "NKkHMN/Xm9/nVgjNmX/I86zUWzod8QKq4ArT2yxhuSI=",
+      "appId": "cs-2f7ae1cb-2ada-5ab5-8c5c-6851bb736399"
     }
   },
   "redis": {
@@ -25,20 +25,20 @@
     "available": false
   },
   "examples": {
-    "mockServicesHost": "http://localhost:8004"
+    "mockServicesHost": "http://localhost:8003"
   },
   "supportsMessageAck": true,
   "languages": ["en", "de"],
   "livechat": {
     "grant_type": "cookie",
-    "client_id": "c91ae76d8e5a736dae4d488e976057be",
-    "client_secret": "419d0d6286f1306fb3975f02a4398aa38d60a595",
-    "license_id": 14856399,
-    "redirect_url": "https://dmtns4-8003.preview.csb.app/agent",
+    "client_id": "1e2d145e2dded099766c54c894448fef",
+    "client_secret": "lXnFm16DAeBbf8JXo6shTMq2D44RryXm",
+    "license_id": 15454218,
+    "redirect_url": "https://fkwprl-8003.csb.app/agent",
     "pat": {
-      "acc_id": "405f11f4-01f6-495a-a048-5b02fc960187",
-      "token": "dal:MpZeFdbt9JyXbKZfhS9cDl_F9dU",
-      "entity_id": "supriyahebbar15@gmail.com"
+      "acc_id": "5ee3f1a9-59b4-4f3b-98fc-3e8e9ba86b8f",
+      "token": "dal:NGavk1eDM4NpUzU_mqnmIHrYMJU",
+      "entity_id": "ragasasw@gmail.com"
     }
   }
 }
